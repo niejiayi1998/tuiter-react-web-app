@@ -217,5 +217,75 @@
     to get dummy text<br/>
 
     Checkout my <a href="other-page.html">other page</a>
+
+    <h2>Table of content</h2>
+    <ul>
+        <li><a href="#embedding-website">Embedding other websites</a></li>
+        <li><a href="#embedding-youtube">Embedding YouTube videos</a></li>
+        <li><a href="#embedding-slides">Embedding Google slide</a></li>
+    </ul>
+
+    <a name="embedding-website"></a>
+    <h2>Embedding other websites</h2>
+    <a href="#top">Top</a><br/>
+    <iframe width="600"
+            height="400"
+            src="https://en.wikipedia.org/wiki/SpaceX">
+    </iframe>
+
+    <a name="embedding-youtube"></a>
+    <h2>Embedding YouTube</h2>
+    <a href="#top">Top</a><br/>
+    <iframe width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7CZTLogln34"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+
+    <a name="embedding-slides"></a>
+    <h2>Embedding Google slides</h2>
+    <a href="#top">Top</a><br/>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQoIYM2gXzRLKt4q5D2-ZahG7zvVcAipkRvj5k9GVLiGDs8NPlLpO3Q08cPUKQbqhL6g8aZp1ZJSwrw/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="680"
+            height="418"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true">
+    </iframe>
+
+    <h2>Table of content for SVG</h2>
+    <ul>
+        <li><a href="#drawing-rectangle">Drawing rectangles</a></li>
+        <li><a href="#drawing-circle">Drawing circles</a></li>
+        <li><a href="#drawing-polygon">Drawing polygons</a></li>
+    </ul>
+
+    <a name="drawing-rectangle"></a>
+    <h2>Drawing rectangles</h2>
+    <a href="#top">Top</a><br/>
+    <svg width="300" height="100">
+        <rect width="300" height="100"
+              style="fill:rgb(175,144,144); stroke-width:10; stroke:rgb(255,171,171)" />
+    </svg>
+
+    <a name="drawing-circle"></a>
+    <h2>Drawing circles</h2>
+    <a href="#top">Top</a><br/>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40"
+                stroke="green" stroke-width="2" fill="cyan" />
+    </svg>
+
+    <a name="drawing-polygon"></a>
+    <h2>Drawing polygons</h2>
+    <a href="#top">Top</a><br/>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+                 style="fill:#bafaba; stroke:#289ca6; stroke-width:5; fill-rule:evenodd;" />
+    </svg>
 </body>
 </html>
