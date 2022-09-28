@@ -1,0 +1,9 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    margin: 0 16px;
+    border-top: solid 1px rgb(47,51,54);
+    border-left: solid 1px rgb(47,51,54);
+    border-right: solid 1px rgb(47,51,54);
+}
