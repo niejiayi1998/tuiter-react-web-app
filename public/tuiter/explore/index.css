@@ -2,8 +2,8 @@
     clear: both;
     display: flex;
     justify-content: space-around;
-    padding-left: 16px;
-    padding-top: 12px;
+    margin-left: 16px;
+    margin-top: 12px;
 }
 
 .wd-search-bar-input{
@@ -14,7 +14,7 @@
     font-size: 15px;
     padding-left: 12px;
     margin-right: 26px;
-    height: 27px;
+    height: 30px;
 }
 
 .wd-search-bar-gear {
@@ -57,7 +57,6 @@
 }
 
 .wd-space {
-    padding: 0;
     height: 13px;
     background-color: rgba(47, 51, 54, 0.7);
     border-top: solid 2px rgb(47,51,54)
