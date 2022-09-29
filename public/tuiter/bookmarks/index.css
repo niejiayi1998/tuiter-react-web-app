@@ -19,6 +19,7 @@
     border-bottom: solid 1px rgb(47,51,54);
     font-size: 15px;
     display: flex;
+    overflow: scroll;
 }
 
 .wd-avatar {
