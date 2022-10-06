@@ -1,5 +1,37 @@
 body {
     font-family: "Arial";
+    background-color: black;
+    color: white;
+}
+
+.list-group-item {
+    border: none;
+    padding-top: 1em;
+    background-color: transparent;
+    color: white;
+}
+
+.wd-nav-bar span {
+    padding-left: 10px;
+}
+
+.wd-nav-bar .wd-selected {
+    font-weight: bolder;
+}
+
+.wd-nav-bar button {
+    background-color: rgb(29,161,242);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wd-search-bar input{
+    background-color: rgb(47, 51, 54);
+    border: none;
 }
 
 .wd-search-tuiter {
@@ -7,14 +39,45 @@ body {
     left: 10px;
 }
 
-.wd-nav-tabs {
-    width: 100%;
-    color: rgb(29,161,242);
-    padding: 0px;
+.wd-main {
+    border-width: 0 1px 1px 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+
+.nav-tabs {
+    justify-content: space-between;
+    border: none;
+}
+
+.nav-tabs a {
+    color: rgb(110, 118, 125);
+}
+
+.nav-tabs .wd-tab-selected {
+    color: white;
+    font-weight: bold;
+    border-bottom: 4px solid rgb(29,161,242);
+}
+
+.wd-main-image {
+    border-bottom: 1px solid rgb(110, 118, 125);
+}
+
+
+.wd-post {
+    background-color: black;
+}
+
+.wd-follow li{
+    background-color: rgb(47, 51, 54);
+}
+
+.wd-follow .wd-following-id {
+    color: rgb(110, 118, 125);
 }
 
 .wd-post img {
-    width: 100px;
     height: 100px;
 }
 
