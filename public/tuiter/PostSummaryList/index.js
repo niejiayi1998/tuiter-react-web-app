@@ -3,7 +3,7 @@ import PostSummaryItem from "./PostSummaryItem.js";
 
 const PostSummaryList = () => {
     return (`
-        <ul class="list-group">
+        <ul class="list-group mb-2">
             ${posts.map(post => {
                 return(PostSummaryItem(post));
             }).join('')}
