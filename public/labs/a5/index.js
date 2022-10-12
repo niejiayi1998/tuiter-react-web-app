@@ -65,7 +65,7 @@ if(!false1) {
 }
 
 console.log('Ternary conditional operator');
-let loggedIn = true;
+const loggedIn = true;
 const greeting = loggedIn ? 'Welcome!' : 'Please login';
 console.log(greeting);
 
@@ -173,8 +173,8 @@ const username = "alice";
 const greeting1 = `Welcome home ${username}`;
 console.log(greeting1);
 
-loggedIn = false;
-const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
+loggedIn2 = false;
+const greeting2 = `Logged in: ${loggedIn2 ? "Yes" : "No"}`;
 console.log(greeting2);
 
 const init = () => {
