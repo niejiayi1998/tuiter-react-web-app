@@ -4,7 +4,6 @@ import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import ExploreComponent from "./explore";
 import HomeComponent from "./home";
-import Home from "./home";
 
 function Tuiter() {
   return (

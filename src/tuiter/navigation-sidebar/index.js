@@ -49,6 +49,7 @@ const NavigationSidebar = () => {
                 <span className="d-none d-xl-inline">More</span>
             </a>
         </div>
+
     );
 }
 
