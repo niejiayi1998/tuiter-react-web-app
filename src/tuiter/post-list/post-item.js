@@ -20,16 +20,16 @@ const PostItem = ({post}) => {
                         <img className="rounded" src={`/images/${post.image}`} width="100%" alt="post_image"/>
 
                         {post.title ?
-                        <div class="border-top border-secondary ps-2 pt-2">{post.title}</div>
+                        <div className="border-top border-secondary ps-2 pt-2">{post.title}</div>
                         : ""}
 
                         {post.body ?
-                        <div class="text-secondary ps-2">{post.body}</div>
+                        <div className="text-secondary ps-2">{post.body}</div>
                         : ""}
 
                         {post.link ?
-                        <div class="text-secondary ps-2 pb-2">
-                                <i class="bi bi-link-45deg"></i> {post.link}</div>
+                        <div className="text-secondary ps-2 pb-2">
+                                <i className="bi bi-link-45deg"></i> {post.link}</div>
                         : ""}
 
                     </div>
