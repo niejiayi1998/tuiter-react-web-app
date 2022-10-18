@@ -9,6 +9,7 @@ const NavigationSidebar = () => {
     const active = paths[2];
 
     return (
+        <>
         <div className="list-group">
             <a className="list-group-item">
                 <i className="bi bi-twitter"></i>
@@ -49,6 +50,8 @@ const NavigationSidebar = () => {
                 <span className="d-none d-xl-inline">More</span>
             </a>
         </div>
+            <button className="btn btn-primary w-100 mt-2 rounded-pill">Tuit</button>
+        </>
     );
 }
 

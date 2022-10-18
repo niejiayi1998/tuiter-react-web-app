@@ -2,7 +2,7 @@ import React from "react";
 
 const PostItem = ({post}) => {
     return (
-        <li className="list-group-item">
+        <li className="list-group-item bg-black">
             <div className="row">
                 <div className="col-1">
                     <img className="rounded-circle" src={`/images/${post.avatar}`} width="50px" height="50px" alt="user_avatar"/>
