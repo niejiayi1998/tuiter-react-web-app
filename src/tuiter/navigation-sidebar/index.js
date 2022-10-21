@@ -15,38 +15,38 @@ const NavigationSidebar = () => {
                 <i className="bi bi-twitter"></i>
             </a>
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home' ? 'active':''}`}>
-                <i className="bi bi-house-door-fill pe-2"></i>
+                <i className="fa-solid fa-house pe-2"></i>
                 <span className="d-none d-xl-inline">Home</span>
             </Link>
             <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore' ? 'active':''}`}>
-                <i className="bi bi-hash pe-2"></i>
+                <i className="fa-solid fa-hashtag pe-2"></i>
                 <span className="d-none d-xl-inline">Explore</span>
             </Link>
             <Link to="/" className="list-group-item">
                 Labs
             </Link>
             <a className={`list-group-item ${active === 'notifications' ? 'active':''}`}>
-                <i className="bi bi-bell-fill pe-2"></i>
+                <i className="fa-solid fa-bell pe-2"></i>
                 <span className="d-none d-xl-inline">Notifications</span>
             </a>
             <a className={`list-group-item ${active === 'messages' ? 'active':''}`}>
-                <i className="bi bi-envelope-fill pe-2"></i>
+                <i className="fa-solid fa-envelope pe-2"></i>
                 <span className="d-none d-xl-inline">Messages</span>
             </a>
             <a className={`list-group-item ${active === 'bookmarks' ? 'active':''}`}>
-                <i className="bi bi-bookmark-fill pe-2"></i>
+                <i className="fa-solid fa-bookmark pe-2"></i>
                 <span className="d-none d-xl-inline">Bookmarks</span>
             </a>
             <a className={`list-group-item ${active === 'lists' ? 'active':''}`}>
-                <i className="bi bi-list-ul pe-2"></i>
+                <i className="fa-solid fa-list pe-2"></i>
                 <span className="d-none d-xl-inline">Lists</span>
             </a>
             <a className={`list-group-item ${active === 'profile' ? 'active':''}`}>
-                <i className="bi bi-person-fill pe-2"></i>
+                <i className="fa-solid fa-user pe-2"></i>
                 <span className="d-none d-xl-inline">Profile</span>
             </a>
             <a className={`list-group-item ${active === 'more' ? 'active':''}`}>
-                <i className="bi bi-info-circle-fill pe-2"></i>
+                <i className="fa-solid fa-circle-info pe-2"></i>
                 <span className="d-none d-xl-inline">More</span>
             </a>
         </div>

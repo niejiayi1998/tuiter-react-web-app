@@ -10,7 +10,7 @@ const WhoToFollowListItem = (
                     <img className="rounded-circle" height={48} src={`/images/${who.avatarIcon}`} alt="user_avatar" />
                 </div>
                 <div className="col-8">
-                    <div className="fw-bold">{who.userName} <i className="bi bi-check-circle-fill"></i></div>
+                    <div className="fw-bold">{who.userName} <i className="fa-solid fa-circle-check"></i></div>
                     <div>@{who.handle}</div>
                 </div>
                 <div className="col-2 my-auto">

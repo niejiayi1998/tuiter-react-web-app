@@ -10,7 +10,7 @@ const PostItem = ({post}) => {
 
                 <div className="col-11 ps-4">
                     <div className="fw-bolder">
-                        {post.username} <i className="bi bi-check-circle-fill pe-2"></i>
+                        {post.username} <i className="fa-solid fa-circle-check pe-2"></i>
                         <span className="text-secondary fw-normal">@{post.handle} · {post.time}</span>
                     </div>
 
