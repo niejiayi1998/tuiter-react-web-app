@@ -1,0 +1,16 @@
+{
+  "_id": 123,
+  "firstName": "Jiayi",
+  "lastName": "Nie",
+  "handle": "@jiayi_nie",
+  "profilePicture": "profile_pic.png",
+  "bannerPicture": "banner.webp",
+  "bio": "Student, Future Software Engineer, Cats Lover. Enjoy web development and open to challenge",
+  "website": "youtube.com/webdevtv",
+  "location": "San Jose, CA",
+  "dateOfBirth": "1998-08-08",
+  "dateJoined": "2020-04",
+  "followingCount": 340,
+  "followersCount": 223,
+  "tuits": 6114
+}

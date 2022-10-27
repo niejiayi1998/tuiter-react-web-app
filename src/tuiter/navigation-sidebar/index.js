@@ -23,7 +23,8 @@ const NavigationSidebar = () => {
                 <span className="d-none d-xl-inline">Explore</span>
             </Link>
             <Link to="/" className="list-group-item">
-                Labs
+                <i className="fa-solid fa-star-of-life pe-2"></i>
+                <span className="d-none d-xl-inline">Labs</span>
             </Link>
             <a className={`list-group-item ${active === 'notifications' ? 'active':''}`}>
                 <i className="fa-solid fa-bell pe-2"></i>
@@ -41,10 +42,10 @@ const NavigationSidebar = () => {
                 <i className="fa-solid fa-list pe-2"></i>
                 <span className="d-none d-xl-inline">Lists</span>
             </a>
-            <a className={`list-group-item ${active === 'profile' ? 'active':''}`}>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile' ? 'active':''}`}>
                 <i className="fa-solid fa-user pe-2"></i>
                 <span className="d-none d-xl-inline">Profile</span>
-            </a>
+            </Link>
             <a className={`list-group-item ${active === 'more' ? 'active':''}`}>
                 <i className="fa-solid fa-circle-info pe-2"></i>
                 <span className="d-none d-xl-inline">More</span>
