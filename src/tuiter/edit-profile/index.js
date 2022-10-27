@@ -90,6 +90,7 @@ const EditProfile = () => {
                 <label htmlFor="website">Website</label><br/>
                 <input
                     id="website"
+                    type="text"
                     className="w-100"
                     placeholder="Website"
                     value={website}
