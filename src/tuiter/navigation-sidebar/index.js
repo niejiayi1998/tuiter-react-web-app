@@ -14,7 +14,7 @@ const NavigationSidebar = () => {
             <a className="list-group-item">
                 <i className="bi bi-twitter"></i>
             </a>
-            <Link to="/tuiter/home" className={`list-group-item ${active === 'home' ? 'active':''}`}>
+            <Link to="/tuiter" className={`list-group-item ${!active ? 'active':''}`}>
                 <i className="fa-solid fa-house pe-2"></i>
                 <span className="d-none d-xl-inline">Home</span>
             </Link>
